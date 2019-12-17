@@ -1,0 +1,79 @@
+.title_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.main_title {
+  font-size: 1.25em; /* 20px */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 0.8em;
+}
+
+.text {
+  font-size: 0.875em; /* 14px */
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.filter_wrap {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.filter_svg,
+.lock_svg {
+  margin-right: 0.625em;
+}
+
+.filter_title {
+  font-size: 0.75em; /* 12px */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  margin-right: 1.3333em;
+}
+
+.time,
+.languages,
+.games {
+  display: flex;
+  align-items: center;
+}
+
+.time,
+.languages {
+  margin-right: 1.8125em;
+}
+
+.time_item {
+  font-size: 0.875em; /* 14px */
+  width: 5.5em;
+  height: 2.8571em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2a2a30;
+  border-radius: 6.25em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  margin-right: 0.7142em;
+}
+
+.languages_item,
+.games_item {
+  font-size: 0.875em; /* 14px */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 0.7142em;
+}

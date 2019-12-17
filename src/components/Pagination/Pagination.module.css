@@ -1,0 +1,44 @@
+.pagination {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.arrow_prev {
+  margin-right: 1.875em;
+}
+
+.num_active,
+.num,
+.num_last {
+  font-size: 0.875em; /* 14px */
+  width: 2.8571em;
+  height: 2.8571em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  margin-right: 0.5714em;
+}
+
+.num_active {
+  border: 1px solid #4bff58;
+  border-radius: 0.2857em;
+  color: #ffffff;
+}
+
+.num {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.num_last {
+  margin-right: 1.7142em;
+}
+
+.arrow_next {
+  color: #8d8d9c;
+  transform: rotate(180deg);
+}
