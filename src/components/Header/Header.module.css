@@ -1,3 +1,7 @@
+.hdr {
+  margin-bottom: 1.125em;
+}
+
 .title_wrap {
   display: flex;
   align-items: center;
