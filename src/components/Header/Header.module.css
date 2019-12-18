@@ -5,10 +5,11 @@
 .title_wrap {
   display: flex;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 .main_title {
-  font-size: 1.25em; /* 20px */
+  font-size: 1.25rem; /* 20px */
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #ffffff;
@@ -16,10 +17,16 @@
 }
 
 .text {
-  font-size: 0.875em; /* 14px */
+  font-size: 0.875rem; /* 14px */
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 599px) {
+  .text {
+    display: none;
+  }
 }
 
 .filter_wrap {
@@ -29,13 +36,30 @@
   margin-left: auto;
 }
 
+.filter_wrap > div {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 599px) {
+  .filter_wrap {
+    flex-flow: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .filter_wrap > div {
+    margin-bottom: 2em;
+  }
+}
+
 .filter_svg,
 .lock_svg {
   margin-right: 0.625em;
 }
 
 .filter_title {
-  font-size: 0.75em; /* 12px */
+  font-size: 0.75rem; /* 12px */
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -56,8 +80,18 @@
   margin-right: 1.8125em;
 }
 
+@media (max-width: 599px) {
+  .time {
+    margin-bottom: 1.625em;
+  }
+
+  .languages {
+    margin-bottom: 2.25em;
+  }
+}
+
 .time_item {
-  font-size: 0.875em; /* 14px */
+  font-size: 0.875rem; /* 14px */
   width: 5.5em;
   height: 2.8571em;
   display: flex;
@@ -74,7 +108,7 @@
 
 .languages_item,
 .games_item {
-  font-size: 0.875em; /* 14px */
+  font-size: 0.875rem; /* 14px */
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.25px;

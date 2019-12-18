@@ -13,8 +13,10 @@ const Header = () => {
         <p className={s.text}>by Hours Watched, last 7 Days</p>
       </div>
       <div className={s.filter_wrap}>
-        <Filter className={s.filter_svg} />
-        <h3 className={s.filter_title}>Filter:</h3>
+        <div>
+          <Filter className={s.filter_svg} />
+          <h3 className={s.filter_title}>Filter:</h3>
+        </div>
         <ul className={s.time}>
           <li className={s.time_item}>7 Days</li>
           {/* <li className={s.time_item}>24 Hours</li>
