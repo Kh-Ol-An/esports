@@ -19,8 +19,6 @@ const Header = () => {
         </div>
         <ul className={s.time}>
           <li className={s.time_item}>7 Days</li>
-          {/* <li className={s.time_item}>24 Hours</li>
-          <li className={s.time_item}>1 Hour</li> */}
           <Arrow className={s.arrow_svg} />
         </ul>
         <ul className={s.languages}>

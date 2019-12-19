@@ -70,10 +70,10 @@
 .name {
   font-size: 0.875rem; /* 14px */
   position: absolute;
-  top: -50px;
+  top: 2.5714em;
   left: 0;
   transform: translateX(-42%) scale(0);
-  transform-origin: bottom;
+  transform-origin: top;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,13 +98,9 @@
   left: 50%;
   transform: translateX(-50%) rotateZ(45deg);
   transform-origin: left;
-  bottom: 0;
+  top: -0.7142em;
   background: inherit;
 }
-
-/* .channel {
-  position: sticky;
-} */
 
 .fix {
   position: absolute;
@@ -118,22 +114,22 @@
   height: 100%;
   position: absolute;
   top: 0;
-  /* top: 0;
-  top: 50%;
-  transform: translateY(-50%); */
-  left: 2.8333em;
+  left: 3vw;
   display: flex;
   align-items: center;
   margin-left: -2px;
   background: #141418;
-  z-index: 111;
+}
+
+@media (max-width: 1023px) {
+  .fix_img {
+    left: 2.8333em;
+  }
 }
 
 .fix_img > img {
   width: 2.5em;
   height: 2.5em;
-  /* top: 50%;
-  transform: translateY(-50%); */
   border-radius: 50%;
 }
 
